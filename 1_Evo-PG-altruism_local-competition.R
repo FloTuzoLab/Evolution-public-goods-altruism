@@ -7,7 +7,6 @@ ncol=256
 palet<-viridis(ncol)
 pal<-list(palet)
 setwd("~/")#Setting the directory where to find relevant scripts
-#setwd("/Users/florianlabourel/Desktop/Git/Evolution-public-goods-altruism")
 source("AP11.Plotting_multiple_images.R")##Importing scripts to make figures with multiple plots
 
 ##0.Dichothomy algorithm to find the minimum of a function (without change of concavity)
